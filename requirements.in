@@ -1,0 +1,7 @@
+hydra-core
+hydra-experiment-sweeper
+
+numpy
+scipy
+matplotlib
+pandas

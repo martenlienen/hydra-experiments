@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - /method: nelder-mead
+
+method:
+  options:
+    maxfev: ${maxfun}

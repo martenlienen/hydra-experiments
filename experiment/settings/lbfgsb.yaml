@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - /method: lbfgsb
+
+jac: 2-point
+
+method:
+  options:
+    maxfun: ${maxfun}
+    eps: 1e-3

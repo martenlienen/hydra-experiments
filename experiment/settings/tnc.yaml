@@ -1,0 +1,9 @@
+# @package _global_
+
+defaults:
+  - /method: tnc
+
+method:
+  options:
+    maxfun: ${maxfun}
+    eta: 0.5

@@ -1,0 +1,4 @@
+name: TNC
+options:
+  eta: 0.2
+  stepmx: 5.0

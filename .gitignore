@@ -1,0 +1,9 @@
+# Hydra
+multirun
+outputs
+
+# Python
+__pycache__
+
+# Outputs
+*.pickle

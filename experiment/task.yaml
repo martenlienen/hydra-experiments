@@ -1,0 +1,17 @@
+defaults:
+  - _self_
+  - settings: ~
+  - override hydra/sweeper: experiment
+
+hydra:
+  searchpath:
+    - file://config
+  sweeper:
+    overrides:
+      settings: nelder-mead,tnc,lbfgsb
+      maxfun: range(10, 151, 10)
+
+output_path: "results/${method.name}-${maxfun}.pickle"
+
+x0: [-0.5, -0.5]
+maxfun: ~

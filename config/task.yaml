@@ -1,0 +1,7 @@
+defaults:
+  - method: ~
+  - _self_
+
+x0: ~
+jac: ~
+output_path: ~
